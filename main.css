@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    width: 100%;
+    margin: 16px auto;
+    padding: 20px;
+    background-color: #008CBA;
+    font-family: "Kode Mono", monospace;
+}
+.container{
+    max-width: 1350px;
+    width: 100%;
+    margin: 16px auto;
+}
+h1, h2, h3{
+    font-family: "Kode Mono", monospace;
+    color: #008CBA;
+}
+header h1{
+    color: #fff;
+    font-weight: none;
+}
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header .container ul li{
+    display: inline;
+    margin-left: 20px;
+}
+header .container ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+section .container img{
+    width: 550px;
+}
+header .container, section .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+section .container{
+    align-items: flex-start;
+    justify-content: space-between;
+}
+section .container div{
+    padding: 20px;
+}
+.container h2{
+    font-family: "Kode Mono", monospace;
+}
+.container .image img{
+    max-width: 250px;
+    height: 250px;
+    width: 100%;
+}
+section#technology .container{
+    margin: 0;
+}
+section#services .container{
+    text-align: center;
+}
+section#services .container img{
+    max-width: 80px;
+    width: 100%;
+    height: auto;
+}
+form input{
+    display: block;
+    width: 320px;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+textarea{
+    resize: none;
+    width: 320px;
+    height: 240px;
+
+}
+button{
+    width: 320px;
+    height: 30px;
+    padding: 8px;
+    background-color: #008CBA;
+    color: #fff;
+    transition: .5s ease;
+}
+form input, textarea, button{
+    font-family: "Kode Mono", monospace;
+}
+button:hover{
+    background-color: #fff;
+    color: #008CBA;
+    cursor: pointer;
+    border: 3px solid #008cba
+}
+input:focus, textarea:focus{
+    outline-color: #008cba;
+}
+footer .social-links img{
+    width: 50px;
+}
+footer .social-links ul{
+    list-style-type: none;
+}
+footer .social-links ul li{
+    display: inline;
+    padding-left: 20px;
+}
+footer .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+footer{
+    padding: 40px;
+    height: 20vh;
+    background-color: #022835;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    font-family: "Kode Mono", monospace;
+}
